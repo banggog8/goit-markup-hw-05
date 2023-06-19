@@ -647,7 +647,7 @@ transform: translateY(0);
   color: #2E2F42; */
 }
 .modal-contacts{
-  display: block;
+  display: inline-block;
   margin-bottom: 4px;
   color: var(--modal-contacts);
   font-size: 12px;
@@ -666,6 +666,9 @@ transform: translateY(0);
 }
 .modal-input:required{
   border: 1px solid var(--button-color);
+
+}
+.modal-field{
   
 }
 
