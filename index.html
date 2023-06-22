@@ -405,15 +405,38 @@
           <form class="modal-form">
             <div class="modal-field">
               <label for="user-name"  class="modal-contacts">Name</label>
-              <input type="text" name="user-name" id="user-name"  class="modal-input" >
+              <div class="input-wrap">
+                <input type="text" name="user-name" id="user-name"  class="modal-input" >
+                <svg class="modal-icon" width="24" height="24">
+                 <use href="./images/icons.svg#person"></use>
+                </svg>
+              </div>
             </div>
             <div class="modal-field">
               <label for="user-phone" class="modal-contacts">Phone</label>
-              <input type="tel" name="user-phone" id="user-phone" class="modal-input" >
+              <div class="input-wrap">
+                <input type="tel" name="user-phone" id="user-phone" class="modal-input" >
+                <svg class="modal-icon" width="24" height="24">
+                  <use href="./images/icons.svg#phone"></use>
+                 </svg>
+              </div>
             </div>
             <div class="modal-field">
               <label for="user-email" class="modal-contacts">Email</label>
-              <input type="email" name="user-email" id="user-email" class="modal-input"  >
+              <div class="input-wrap">
+                <input type="email" name="user-email" id="user-email" class="modal-input">
+                <svg class="modal-icon" width="24" height="24">
+                  <use href="./images/icons.svg#email"></use>
+                 </svg>
+              </div>
+            </div>
+            <div class="modal-field">
+              <label for="user-comments" class="modal-contacts">Contacts</label>
+              <textarea name="modal-text" placeholder="Text input" class="modal-textarea"></textarea>
+            </div>
+            <div class="modal-field">
+              <input type="checkbox" name="policy" class="input-check" value="true">
+              <label for="policy" class="check-text">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
             </div>
             <button class="submit">Send</button>
           </form>
