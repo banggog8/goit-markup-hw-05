@@ -681,7 +681,7 @@ body {
   border: 1px solid var(--button-color);
 }
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-icon {
   position: absolute;
