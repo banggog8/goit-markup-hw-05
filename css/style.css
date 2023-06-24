@@ -711,6 +711,9 @@ body {
 .modal-textarea:focus{
   border-color: #4D5AE5;
 }
+.modal-checkbox{
+  margin-bottom: 24px;
+}
 .check-text {
   font-size: 12px;
   line-height: 14px;
