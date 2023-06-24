@@ -643,7 +643,6 @@ body {
   color: var(--background-color);
 }
 .modal-contacts {
-  position: relative;
   display: block;
   margin-bottom: 4px;
   color: var(--modal-contacts);
@@ -652,14 +651,19 @@ body {
   letter-spacing: 0.04em;
 }
 
+.input-wrap{
+  position: relative;
+}
+
 .modal-input {
   width: 100%;
-  height: 58px;
+  height: 40px;
   border-radius: 4px;
-  background: var(--modal-window-input-bc);
+  background-color: transparent;
   outline: transparent;
-  padding-left: 50px;
-  transition: 250ms linear var(--button-color);
+  padding-left: 38px;
+  transition: var(--transition);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .modal-input::placeholder,
 .modal-text::placeholder {
