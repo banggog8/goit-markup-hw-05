@@ -683,6 +683,9 @@ body {
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-field-contacts{
+  margin-bottom: 16px;
+}
 .modal-icon {
   position: absolute;
   left: 16px;
