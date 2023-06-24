@@ -643,11 +643,12 @@ body {
   color: var(--background-color);
 }
 .modal-contacts {
-  display: inline-block;
+  position: relative;
+  display: block;
   margin-bottom: 4px;
   color: var(--modal-contacts);
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 
@@ -676,7 +677,7 @@ body {
   border: 1px solid var(--button-color);
 }
 .modal-field {
-  margin-bottom: 26px;
+  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
