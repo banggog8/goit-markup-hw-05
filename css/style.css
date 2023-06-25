@@ -489,8 +489,13 @@ body {
 .subscribe-paragraf {
 }
 .email-input {
+  width: 264px;
+  height: 40px;
+  border-color: transparent;
 }
 .footer-submit-btn{
+ 
+
   max-width: 165px;
   height: 40px ;
   background: var(--button-color);
