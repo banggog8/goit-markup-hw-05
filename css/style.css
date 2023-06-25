@@ -483,8 +483,12 @@ body {
   height: 80px;
 }
 .subscribe-text{
+  display: flex;
   margin-right: 16px;
   color: var(--fff);
+}
+.label-subscribe{
+  gap 24px;
 }
 
 .email-input {
