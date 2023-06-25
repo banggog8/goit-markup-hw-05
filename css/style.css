@@ -478,6 +478,26 @@ body {
   margin: 0;
   margin-bottom: 16px;
 }
+.subscribe {
+  width: 453px;
+  height: 80px;
+}
+.subscribe-text{
+  margin-right: 16px;
+  color: var(--fff);
+}
+.subscribe-paragraf {
+}
+.email-input {
+}
+.footer-submit-btn{
+  max-width: 165px;
+  height: 40px ;
+  background: var(--button-color);
+  border-radius: 4px;
+  padding: 8px 8px 24px 64px;
+  margin-left: 24px;
+}
 /* Portfolio */
 .filter-section {
   padding-top: 96px;
@@ -744,7 +764,7 @@ body {
   fill: var(--background-light-color);
 }
 .input-check:focus + .check-text span{
-  background-color: var(--hover-link);
+  border-color: var(--hover-link);
  
 }
 .submit-btn{
@@ -769,4 +789,13 @@ body {
 color: var(--hover-link) ;
 background-color: transparent;
 border-color: var(--button-color);
+}
+.subscribe-paragraf{
+ 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
 }
