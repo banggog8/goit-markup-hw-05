@@ -512,12 +512,11 @@ body {
 }
 
 .footer-submit-btn{
-
   display: flex;
   justify-content: center;
   align-items: center;
   min-width: 165px;
-  height: 40px ;
+  height: 40px; 
   background: var(--button-color);
   border-radius: 4px;
   padding:24px  8px ;
