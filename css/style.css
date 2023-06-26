@@ -465,6 +465,7 @@ body {
   color: var(--background-light-color);
 }
 .footer-social {
+  margin-right: 80px;
 }
 .soc-media {
   margin-bottom: 16px;
@@ -511,6 +512,7 @@ body {
 }
 
 .footer-submit-btn{
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -518,7 +520,7 @@ body {
   height: 40px ;
   background: var(--button-color);
   border-radius: 4px;
-  padding: 8px 8px 24px 64px;
+  padding:24px  8px ;
   margin-left: 24px;
   line-height: 1.5 ;
   color: var(--fff);
