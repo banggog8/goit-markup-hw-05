@@ -505,7 +505,10 @@ body {
   background-color: transparent; 
   font-size: 12px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--fff);
 }
+
 .footer-submit-btn{
   max-width: 165px;
   height: 40px ;
